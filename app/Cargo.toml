@@ -1,0 +1,11 @@
+[package]
+name = "otto_app"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "otto-app"
+path = "src/main.rs"
+
+[dependencies]
+otto.workspace = true

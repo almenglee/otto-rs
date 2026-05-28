@@ -1,0 +1,10 @@
+[package]
+name = "otto"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+name = "otto"
+path = "src/lib.rs"
+
+[dependencies]
